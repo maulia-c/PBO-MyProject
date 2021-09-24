@@ -7,7 +7,7 @@ package bangunDatar;
 
 /**
  *
- * @author NURUL IMAN
+ * @author Maulia
  */
 public class Persegi {
     //atribut

@@ -7,10 +7,11 @@ package bangunDatar;
 
 /**
  *
- * @author NURUL IMAN
+ * @author Maulia
  */
-public class BangunDatarMain {
-     Persegipanjang pjg = new Persegipanjang();
+public class BangunDatarMain{
+    public static void main(String[] args) {
+        Persegipanjang pjg = new Persegipanjang();
         pjg.panjang = 25;
         pjg.lebar = 38;
         pjg.hitungLuas();
@@ -27,15 +28,15 @@ public class BangunDatarMain {
         ps.hitungLuas();
         ps.hitungKeliling();
         
-        Lingkaran ling = new Lingkaran();
-        ling.jarijari = 25;
-        ling.nameling = "A";
-        ling.hitungLuas();
-        ling.hitungKeliling();
+        Lingkaran lingkaran = new Lingkaran();
+        lingkaran.jarijari = 25;
+        lingkaran.nameling = "A";
+        lingkaran.hitungLuas();
+        lingkaran.hitungKeliling();
         
-        ling.jarijari = 37;
-        ling.nameling = "B";
-        ling.hitungLuas();
-        ling.hitungKeliling();
+        lingkaran.jarijari = 37;
+        lingkaran.nameling = "B";
+        lingkaran.hitungLuas();
+        lingkaran.hitungKeliling();
     }
 }

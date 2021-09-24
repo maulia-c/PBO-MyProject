@@ -7,7 +7,7 @@ package bangunRuang;
 
 /**
  *
- * @author NURUL IMAN
+ * @author Maulia
  */
 public class Kerucut {
      //atribut
